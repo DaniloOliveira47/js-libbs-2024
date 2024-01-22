@@ -20,8 +20,6 @@
       var studing;
       var idade;
 
-
-
       nome = prompt("Qual o seu nome?");
 
       studing = confirm("Está estudando no momento?");
@@ -44,16 +42,15 @@
 
       idade = prompt("Qual a sua idade?");
 
-      if (idade >=12 || idade <= 17){
-        alert("Ainda está na idade de brincar")
-    }else if(idade >= 18 || idade <= 24){
-       alert("Parabéns hora de tirar a carta")
-      }else if(idade >=25 || idade <=49){
-        alert("já não precisa morar com o papai")
-      }else if(idade >=50){
-        alert("Nada de neto?")
+      if (idade >= 12 && idade <= 17) {
+        alert("Ainda está na idade de brincar");
+      } else if (idade >= 18 && idade <= 24) {
+        alert("Parabéns hora de tirar a carta");
+      } else if (idade >= 25 && idade <= 49) {
+        alert("já não precisa morar com o papai");
+      } else if (idade >= 50) {
+        alert("Nada de neto?");
       }
-    
     </script>
   </head>
   <body>
